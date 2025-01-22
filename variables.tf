@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "AWS region"
-  default     = "us-east-1"
+  default     = "ap-south-1"
 }
 
 variable "instance_type" {
@@ -15,7 +15,7 @@ variable "key_name" {
 
 variable "s3_bucket_name" {
   description = "Name of the S3 bucket for remote state"
-  default = "tfdemo16112023"
+  default = "niltfdemo16112023"
 }
 
 variable "name" {
